@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;
+}
+
+:root {
+	--color1: #FFFFFF;
+	--color2: #F0F0F0;
+	--color3: #E8E8E8;
+	--color4: #E0E0E0;
+	--color5: #BABABA;
+	--color11: #C5C5C5;
+	--color12: #707070;
+	--color13: #3F3F3F;
+	--color14: #2F2F2F;
+	--color15: #1F1F1F;
+	--color16: #0A0A0A;
+	--color17: #000000;
+	--color18: #00000070;
+	--color21: #FD8A8A;
+	--color22: #9AB8D4;
+	--color23: #A8D1D1;
+	--color24: #F4C27D;
+	--color25: #D9BAEE;
+
+	--grad-clr1: var(--color1);
+	--grad-clr2: var(--color2);
+	--lgrad: linear-gradient(167deg, var(--grad-clr1), var(--grad-clr2), var(--grad-clr2), var(--grad-clr2));
+}
+
+/* 
+*:before,
+*:after{
+font-family: 'Nunito Sans', sans-serif;
+} 
+*/
+
+body {
+	min-height: 100vh;
+	background: var(--color3);
+	padding: 2em;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Nunito Sans', sans-serif;
+	position: relative;
+}
